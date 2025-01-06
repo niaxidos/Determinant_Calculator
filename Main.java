@@ -23,15 +23,13 @@ public class Main {
 				System.out.println();
 				System.out.print("ERROR: Please enter a positive integer. Try again: ");
 
-			}
-
-			else {
+			} else {
 				break;
 			}
 		}
 
-		System.out.print(
-				"\nPlease enter the number of columns in your matrix as a positive integer. \nTo have a determinant, the number of rows and columns must be equal (a square matrix): ");
+		System.out.print("\nPlease enter the number of columns in your matrix as a positive integer."
+				+ "\nTo have a determinant, the number of rows and columns must be equal (a square matrix): ");
 
 		while (true) {
 			numCols = key.nextInt();
@@ -40,9 +38,7 @@ public class Main {
 				System.out.println();
 				System.out.print("ERROR: Please enter a positive integer equal to the number of rows. Try again: ");
 
-			}
-
-			else {
+			} else {
 				break;
 			}
 
